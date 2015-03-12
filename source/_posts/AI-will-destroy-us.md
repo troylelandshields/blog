@@ -32,7 +32,7 @@ Don't worry, I'm sure your position as an accountant is safe and sou--damn, the 
 
 Surely we can't have cold, machine-like salesman. Sales requires passion and emotion and an ability to read people. Or maybe it just takes the new [Terminator](http://www.cinemablend.com/images/news_img/68511/Terminator_Genisys_68511.jpg) from Skynet! This new, charming, attractive, silver-foxed life-form proxy is sure to impress. He'll terminate your customers' problems in the blink of an eye! And if they need anything else, <i>he'll be back</i>! Literally any time of the day. For literally no commission. Yeah... You don't stand a chance.
 
-President--we must have a human president because human's are better at weighing decisions and making tough choices. Bahahah, please I can't even get through that one seriously! If we still have a human president after AI becomes prolific in our society then his entire job will consist of being the one guy that remembers to turn on our Supreme Overlord every morning so that it can make sure everything keeps whirring and spinning. (Even this of course is satire as the Supreme Overlord could never be turned off).
+President--we must have a human president because human's are better at weighing decisions and making tough choices. Bahahah, please I can't even get through that one seriously! If we still have a human president after AI becomes prolific in our society then his or her entire job will consist of being the one guy that remembers to turn on our Supreme Overlord every morning so that it can make sure everything keeps whirring and spinning. (Even this of course is satire as the Supreme Overlord could never be turned off).
 
 Hopefully the power never goes out. We will be completely screwed.
 
