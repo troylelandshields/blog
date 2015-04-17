@@ -4,6 +4,8 @@ tags:
 ---
 The question to think about is why does iPhone destroy Windows phone in the market? There are a number of reasons, but price, hardware, and UI aren't main factors in my opinion. The ultimate reason, if you trace it back, is the availability of apps. <sub><sup>Which, interestingly, is part of the reason Microsoft made a killing in the 90s over Mac computers.</sup></sub>
 
+<!-- more -->
+
 Apple moved before Microsoft to the smart phone market. Lots of people bought iPhones. Developers want to sell apps to lots of people. Lots of developers developed lots of apps for iPhone. Other people want more apps on their phone. Other people buy iPhones. More developers develop apps. Etc, etc, etc.
 
 Microsoft needs this to take off in a big way to attract developers, because without fancy apps that do stuff like in the video above, people will look at HoloLens and see nothing but a clunky piece of useless hardware. If Microsoft tries to go the Google Glass route of selling a high priced product to a niche few, then the product will fail completely because it won't be worth buying at all.

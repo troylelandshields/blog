@@ -9,6 +9,7 @@ date: 2015-01-25 18:46:59
 ``` bash
 $ hexo new "The hell do I write about now?"
 ```
+<!-- more -->
 
 Starting a new blog is kind of a huge pain. I've just spent an hour or two learning about and setting up yet another blog framework. It took another hour to search through hundreds of themes until I found the perfect mix of hip and minimal.
 

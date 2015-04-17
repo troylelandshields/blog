@@ -6,6 +6,8 @@ tags:
 
 I could not be happier that [cursive is being dropped](http://www.eonline.com/news/481596/cursive-handwriting-will-no-longer-be-taught-in-schools-because-it-s-a-big-old-waste-of-time) and [programming is being picked up](http://hourofcode.com/us) in elementary schools. Children should stop learning how to use pens and pencils entirely as far as I'm concerned. (I wasn't exposed to programming until I was 21, and I am still kind of bitter about it).
 
+<!-- more -->
+
 I think about how much time I wasted in high school not learning software or web development and kick myself that I didn't get a headstart on this thing that I love to do. What a wizard I would be now if I had just put my stupid high school brain to productive use!
 
 I feel this way because I absolutely <i>could have</i> learned how to program back then! With a little patience, the Internet, and a few minutes everyday (roughly), I could have become a developer and started creating my million-dollar app or website or video game.

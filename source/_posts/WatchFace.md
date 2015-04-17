@@ -6,6 +6,8 @@ tags:
 
 Microsoft's HoloLens, slated to be released sometime this year, has some lofty ambitions. The video sells the <i>idea</i> of HoloLens incredibly well, so I don't need to -- but I'm going to anyways because it is <b>so awesome!!!</b>
 
+<!-- more -->
+
 The Minecraft part literally blew my mind (and the wall). The Lego execs are rightly freaking out right about now.
 
 Imagine the video games that can be created! [LARPing](https://www.youtube.com/watch?v=T7bYxNfINmA) just got a helluva lot cooler. First-person shooters just got a helluva lot more first-persony. And board games just got a hulluva a lot less boring. And they all got more expensive!

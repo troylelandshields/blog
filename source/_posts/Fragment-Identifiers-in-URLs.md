@@ -1,14 +1,12 @@
-title: Fragment Identifiers in URLs
+title: Fragment Identifiers - The URL Hashtag
 date: 2015-04-17 14:21:54
 tags:
+excerpt: true
 ---
 
-![](http://cnsnews.com/sites/default/files/imagecache/medium/images/aaa2_512.jpg)
-
-
-## Fragment Identifiers - The URL Hashtag
-
 Fragment identifiers are the optional #loremipsum part of a URL (e.g., http://shldz.us/travels/<b>#Provo</b>).
+
+<!-- more -->
 
 Fragment identifiers are only used on the client's browser and are not sent to the server. Using these can be incredibly useful for dynamically altering the content on a webpage without having to request the entire page from the server again. (These can be contrasted with query strings which follow the question mark in a URL and <i>are</i> sent to the server. e.g., http://google.com?q=unicorn+hippo).
 

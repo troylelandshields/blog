@@ -8,6 +8,8 @@ At the time, the three of us collectively decided it was a bettr (hold the 'e' f
 
 I now wish I could go back and kick ourselves in the shins for making this decision. Here's why:
 
+<!-- more -->
+
 ##Writing tests forces you to solve two problems
 
 When are you furiously coding away without stopping to write a test you end up with code that fits very nicely into the single context of the problem or feature you were working on. Days or weeks or months later when you add functionality and need to reuse parts of this code, you may end up having to force a square peg into the round hole you created before. You weren't doing anything wrong, you just had a round peg at the time, that's all you were thinking about, so you made a round hole.
