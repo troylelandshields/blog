@@ -12,7 +12,7 @@ Fragment identifiers are only used on the client's browser and are not sent to t
 
 Popular Javascript frameworks such as [Angular.js](https://angularjs.org/) use the fragment identifier as a crucial part of navigation. The below examples are entirely independent of Angular, but still might serve to help you understand the fragment identifier better.
 
-##An Example of the Usefulness of Fragment Identifiers
+## An Example of the Usefulness of Fragment Identifiers
 
 I have some Javascript code at shldz.us/travels that uses the fragment identifier to open specific images in my lightbox viewer, making a link such as http://shldz.us/travels/#Winter+http://shldz.us/travels/Now/2014/2013/Winter/IMG_0001.JPG open to our travels page and subsequently show the correct image.
 
@@ -20,7 +20,7 @@ As far as the server knows it just served the client the resource at shldz.us/tr
 
 That's great, because as someone is cycling through the images in a gallery I can change the URL to the current image without sending and receiving a whole new request to the server.
 
-##The Problem with Facebook's Like Button (and other such features)
+## The Problem with Facebook's Like Button (and other such features)
 
 Using fragment identifiers can be difficult if you are trying to do something like add a Facebook 'Like' button to your dynamic page.
 
@@ -28,7 +28,7 @@ To tell Facebook you want Likes on your page, your server code will create some 
 
 When the page is created you add the "meta property='og:url' content='$url'" tag, which is used to tell Facebook what URL to consider for Likes. <b>But the server doesn't know what we actually want Liked because it is described in the fragment identifier, <i>which the server never gets to see</i></b>!!
 
-##The Solution
+## The Solution
 
 There are probably several answers to solve this problem, but the one I came up with is pretty simple: just write your code to respond to a query string (the stuff following a ?) by sending the user to the same exact URL with a fragment identifier instead.
 

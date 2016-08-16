@@ -5,7 +5,7 @@ tags:
 
 I had the opportunity to go to one of [Microsoft's HoloLens demos](https://www.hololensevents.com/Auth/Login) today and I'm really excited that I got to try out this awesome piece of technology. You should know that my personal hype level for HoloLens was very high going in to this demo, so I was going in there with the intention of thoroughly loving the experience.
 
-##The Demo
+## The Demo
 
 They ushered me into a mock living room where they told me I would be playing Project Xray, the "first untethered, mixed-reality first-person shooter." This game was demoed at [Build](https://www.youtube.com/watch?v=L3q8KVsVdIc), although I played a simplified version of it that did not involve any handheld controller. It took me a second to figure out how to put it on, but after you do it once this process should be extremely easy. The device itself was very lightweight and felt sturdily attached to my head, which was good because I would have to be dodging fireballs in a moment.
 
@@ -19,7 +19,7 @@ Eventually a boss alien comes out and you kick its butt and you see your score o
 
 They then let us sit down with some of the "Developer Experience" developers to ask questions. I had a lot of questions in my head to ask that I of course forgot all about when it came to the Q&A time. I was there at the end of the day, and it did honestly feel like at least a couple members of the three person team weren't that excited to answer our questions. 
 
-##Reaction
+## Reaction
 
 In a lot of ways, it lived up to my high expectations and hopes. The device was extremely comfortable and lightweight. In fact, as soon as I got into the game I almost completely forgot I was wearing it. There was also no trouble figuring out where to focus like you might experience with the Occulus Rift. 
 

@@ -13,13 +13,13 @@ Unfortunately, because I don't completely understand every step we took to get t
 
 (If you've actually written an iOS app before this might all be dead simple to you. Good for you. [Go collect your 108K](http://9gag.com/gag/anKrb2q/10-highest-paying-programming-languages-in-2015) and mind your business.)
 
-##Step 1 do this: Generate the discovery document for your API
+## Step 1 do this: Generate the discovery document for your API
 
 You need to create the JSON document that describes your API (what endpoints exist, what parameters are accepted, etc). This is used to generate the Objective-C client libraries. There are actually several ways to do this and I think it's fairly well [documented](https://cloud.google.com/appengine/docs/java/endpoints/gen_clients) by Google (also [this](https://cloud.google.com/appengine/docs/java/endpoints/endpoints_tool)). The simplest way is to `cd your/api_project` and run `mvn appengine:endpoints_get_client_lib`. This assumes your Google App Engine project is Java based and you are using [mvn](https://maven.apache.org/). If you aren't... well consider switching, or figure out how to generate the document/s using one of Google's other methods.
 
 Once the documents are generated, they will be placed in a folder like `your/api_project/target/generated-sources/appengine-endpoints/WEB-INF`. There should be one (or several, depending on how your API is structured) _.discovery_ files here. Take note of this location, it's going to be useful later.
 
-##Step 2 do that: Build the XCode Project that Builds the Objective-C libraries that interface with your API
+## Step 2 do that: Build the XCode Project that Builds the Objective-C libraries that interface with your API
 
 (Ugh. I hate having to compile a utility's source code to use it. Just let me download the executable.)
 
@@ -33,7 +33,7 @@ Whatever, the solution ended up being to just create that folder and put the fil
 
 Then you can go back to Google's documentation (linked above) and use the _ServiceGenerator_ to create Objective-C files for your discovery documents. Yes!!!
 
-##Step 3 perform blood sacrifice to Objective-C gods: Add required Google client library
+## Step 3 perform blood sacrifice to Objective-C gods: Add required Google client library
 
 As documented [here](https://cloud.google.com/appengine/docs/java/endpoints/consume_ios), you have to add some required files to your project before you can add your client library. Start by following the steps Google gives you, it should get you almost all the way there. 
 
@@ -43,7 +43,7 @@ Eventually, you should end up having added `GTLNetworking_Sources.m` and `GTLCom
 
 The project should build at this point (Command+B).
 
-##Step 4 your almost there: Add your Objective-C files
+## Step 4 your almost there: Add your Objective-C files
 
 Now that you have the required files added it's time to add your Objective-C files. You need to add them to your Swift XCode project and do some black magic to make sure (1) they compile with the project and (2) you can use them in your Swift code.
 
@@ -59,7 +59,7 @@ You just need to add `import` statements for your services to this: `#import "GT
 
 Now you can really rejoice, for you have successfully generated your iOS client library and added it to your Swift project.
 
-##Step 5 Use your library
+## Step 5 Use your library
 
 You may not be entirely clear on how to use this service just yet though--especially considering we haven't setup OAuth yet, which I'm assuming you're going to want. 
 
@@ -69,6 +69,6 @@ In [Ryan's](http://stackoverflow.com/users/1463518/ryan-heitner) example, he is 
 
 Google has good examples [here](https://cloud.google.com/appengine/docs/java/endpoints/consume_ios) as well on how to use the service.
 
-##Conclusion
+## Conclusion
 
 So, obviously we didn't understand or document this process very well, but we hacked our way through it. If someone else finds this useful, then that is fantastic! If anyone else has some additional tips on how to make this a little less painful, we'd love to hear about that. 

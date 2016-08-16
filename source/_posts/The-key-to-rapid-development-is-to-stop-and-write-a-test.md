@@ -10,7 +10,7 @@ I now wish I could go back and kick ourselves in the shins for making this decis
 
 <!-- more -->
 
-##Writing tests forces you to solve two problems
+## Writing tests forces you to solve two problems
 
 When are you furiously coding away without stopping to write a test you end up with code that fits very nicely into the single context of the problem or feature you were working on. Days or weeks or months later when you add functionality and need to reuse parts of this code, you may end up having to force a square peg into the round hole you created before. You weren't doing anything wrong, you just had a round peg at the time, that's all you were thinking about, so you made a round hole.
 
@@ -20,7 +20,7 @@ I know now that if I had stopped furiously coding in the first place and taken a
 
 If I had written a test first, I guarantee that the square peg would have fit at least slightly nicer when the time came. I also wouldn't have had to spend much time at all manually testing because I would have had proof that the round peg still fit.
 
-##Automated testing is about a billion times better than manual testing
+## Automated testing is about a billion times better than manual testing
 
 In the beginning of a project, manually testing seems far easier and more satisfying than writing unit tests. Your project has very few dependencies, so getting it up and running locally is a snap. It does very little, so seeing the progress is both easy and rewarding.
 
@@ -30,7 +30,7 @@ After your project gets a little more complex, testing it becomes exponentially 
 
 Automated tests are the gift that keeps on giving as well. Not only do they help you write and run code extremely quickly, they keep you feeling confident that your code is still working weeks or months later. The alternative is to keep adding to the ritual of manual tests you go through every time you make a change.
 
-##Tests document your code
+## Tests document your code
 
 At a certain point you're going to make a change that breaks one of your tests. When this happens to me, my first instinct is to look at the offending code. I glance at it, scratch my head and realize that even though I wrote this a week ago I can't remember what in the Sam Hill it was supposed to do.
 
